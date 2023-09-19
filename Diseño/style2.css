@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Quicksand:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    background-color: #481D24;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    padding: 0 40px;
+}
+
+.logo img{
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav{
+    float: right;
+    margin-right: 80px;
+}
+
+nav a:hover{
+    display: inline-block;
+    line-height: 15px;
+    background-color: #eb6335;
+}
+
+nav a{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 13px;
+    border-radius: 10px;
+    text-transform: lowercase;
+}
+
+h1{
+    margin-top: 100px
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    width: 50%;
+}
+
+article{
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+.article img{
+    width: 200px;
+    border-radius: 30px;
+}
+.ari {
+    width: 1366px;
+    height: 768px;
+  
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }

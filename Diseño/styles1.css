@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Quicksand:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: #481D24;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    padding: 0 40px;
+}
+
+.logo img{
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav{
+    float: right;
+    margin-right: 80px;
+}
+
+nav a:hover{
+    display: inline-block;
+    line-height: 15px;
+    background-color: #eb6335;
+}
+
+nav a{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 13px;
+    border-radius: 10px;
+    text-transform: lowercase;
+}
+
+
+
+ .encabezado{
+    background-image: url(../Imagenes/Jujuy.jpg);
+    background-position: center center;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .encabezado h1{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 200px;
+    padding: 25px;
+    color: #481D24;
+ }
+
+ .encabezado h3{
+    font-family: 'Barlow', sans-serif;
+    font-size: 40px;
+    padding: 10px;
+    color: #fff;
+   
+ }
+
+ p{
+    color: #481D24;
+    margin: 5% 5%;
+    text-align: center justify;
+ }
+ 
+.Uno{
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.Uno img{
+    width: 350px;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+
+.Dos{
+    margin-top: 10%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Dos img{
+    width: 350px;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+
+div a{
+    background: #C4182F;
+    font-size: 25px;    
+    color: #fff;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 65px;
+    border-radius: 50px;
+
+}
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #481D24;
+    float: right;
+    text-align: center;
+    }
+footer p{
+    font-size: 15px;;
+    font-family: 'Quicksand', sans-serif;
+    color: #F7C421;
+}
